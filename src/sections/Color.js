@@ -169,7 +169,7 @@ const Color = (props) => {
             <Center ref={textRef}></Center>
             <Right ref={rightRef}>
                 <Canvas
-                    camera={{fov: 6.5}}>
+                    camera={{fov: 13}}>
                     {/*add source light*/}
                     <ambientLight intensity={1.25} />
                     <directionalLight position={0.4}/>

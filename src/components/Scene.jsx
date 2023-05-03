@@ -35,7 +35,7 @@ export function Model(props) {
         //making our model mobile responsive
         let fov = camera.fov;
 
-        fov = (1400 * 18) / window.innerWidth;
+        fov = (1400 * 21) / window.innerWidth;
         camera.fov = fov;
         camera.updateProjectionMatrix();
 
