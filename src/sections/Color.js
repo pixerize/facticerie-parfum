@@ -109,9 +109,9 @@ const Color = (props) => {
         }).to(Elem,
             {
                 onStart: updateColor,
-                onStartParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+                onStartParams: ["#ffffff", "White", "155, 181, 206"],
                 onReverseComplete: updateColor,
-                onReverseCompleteParams: ["#9BB5CE", "Sierra Blue", "155, 181, 206"],
+                onReverseCompleteParams: ["#ffffff", "White", "155, 181, 206"],
             }
         ).to(Elem,
             {
@@ -144,9 +144,9 @@ const Color = (props) => {
         ).to(Elem,
             {
                 onStart: updateColor,
-                onStartParams: ["#215E7C", "Blue", "33, 94, 124"],
+                onStartParams: ["#000000", "Blue", "0, 0, 0"],
                 onReverseComplete: updateColor,
-                onReverseCompleteParams: ["#215E7C", "Blue", "33, 94, 124"],
+                onReverseCompleteParams: ["#000000", "Blue", "0, 0, 0"],
             }
         )
 

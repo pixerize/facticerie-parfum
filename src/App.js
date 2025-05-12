@@ -15,16 +15,8 @@ function App() {
     return (
         <>
             <GlobalStyle/>
-            <Quote/>
-            <PhoneModel />
-            <HeroSection/>
-            <DesignSection />
-            <DisplaySection />
-            <ProcessorSection />
-            <BatterySection />
+
             <ColorContextProvider>
-                <Color />
-                <CameraSection />
                 <PricingSection />
             </ColorContextProvider>
 
