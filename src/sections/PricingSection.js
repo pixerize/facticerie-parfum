@@ -192,8 +192,7 @@ const PricingSection = () => {
 
                 <Details>
                     <Title>Demo for www.facticerie.com</Title>
-                    <SubTitle>Armani code Parfum</SubTitle>
-                    <SubTitle>Click on parfum to activate </SubTitle>
+                    <SubTitle>Click on parfum to activate video  </SubTitle>
                 </Details>
             </Section>
         </Container>

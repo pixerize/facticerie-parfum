@@ -33,13 +33,13 @@ export function Model3(props, { onClick }) {
 
                 if (child.name.includes('Glass')) {
                     mat.transparent = true;
-                    mat.opacity = 0.35;
-                    mat.metalness = 0.2;
+                    mat.opacity = 0.6;
+                    mat.metalness = 1.2;
                     mat.roughness = 0.05;
                     mat.color.set('#111111');
                     mat.ior = 1.45;
                     mat.transmission = 1;
-                    mat.thickness = 1.0;
+                    mat.thickness = 2.0;
                     mat.depthWrite = true;
                     mat.renderOrder = 1;
                 } else if (child.name.includes('Liquid')) {
