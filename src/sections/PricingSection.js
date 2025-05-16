@@ -106,7 +106,7 @@ const PricingSection = () => {
     // Update background color on color context change
     useEffect(() => {
         if (sectionRef.current) {
-            sectionRef.current.style.backgroundColor = `rgba(${currentColor.rgbColor},1)`;
+            sectionRef.current.style.backgroundColor = `rgba(${currentColor.rgbColor},.95)`;
         }
     }, [currentColor]);
 
@@ -151,7 +151,10 @@ const PricingSection = () => {
 
                 <Phone>
                     <IndicatorText>360&deg; &#x27F2; </IndicatorText>
-                    <Canvas camera={{fov: 30}}>
+                    <Canvas
+                        gl={{ toneMappingExposure: 1.75 }}
+
+                        camera={{fov: 30}}>
                         <ambientLight intensity={0.5} />
                         <directionalLight intensity={1} position={[5, 5, 5]} />
                         <directionalLight intensity={0.5} position={[-5, 5, 2]} />
